@@ -64,7 +64,7 @@ export const StyledFilterForm = styled.form`
   }
 
   & label {
-    flex: 0 0 80px;
+    flex: 0 0 120px;
     color: white;
     margin-right: 6px;
     text-align: left;
