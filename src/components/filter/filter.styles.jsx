@@ -21,6 +21,7 @@ export const StyledForm = styled.form`
   & textarea {
     resize: none;
     border: none;
+    border-radius: 4px;
     height: 200px;
     width: 100%;
     padding: 6px;
@@ -76,6 +77,7 @@ export const StyledFilterForm = styled.form`
     padding: 6px;
     color: white;
     border: none;
+    border-radius: 4px;
   }
 
   & p {
