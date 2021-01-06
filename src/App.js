@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from 'styled-components'
+import Filter from './components/filter/filter.component'
 
-function App() {
+const StyledApp = styled.div`
+  background-color: #282c34;
+  color: white;
+
+  min-height: 100vh;
+  padding: 0 10vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+`
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <StyledApp>
+      <Filter />
+    </StyledApp>
+  )
 }
 
-export default App;
+export default App
