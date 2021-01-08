@@ -8,7 +8,7 @@ export const StyledFilter = styled.div`
   max-width: 800px;
   width: 100%;
 
-  & h2 {
+  h2 {
     font-weight: normal;
     text-align: center;
   }
@@ -18,7 +18,7 @@ export const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
 
-  & textarea {
+  textarea {
     resize: none;
     border: none;
     border-radius: 4px;
@@ -30,7 +30,7 @@ export const StyledForm = styled.form`
     color: white;
   }
 
-  & button {
+  button {
     font-size: 1.2rem;
     align-self: end;
     border: none;
@@ -57,20 +57,20 @@ export const StyledFilteredText = styled.div`
 `
 
 export const StyledFilterForm = styled.form`
-  & div {
+  div {
     display: flex;
     margin: 2px;
     align-items: center;
   }
 
-  & label {
+  label {
     flex: 0 0 120px;
     color: white;
     margin-right: 6px;
     text-align: left;
   }
 
-  & input {
+  input {
     flex: 1 1 600px;
     min-width: 0;
     background-color: #42454e;
@@ -80,7 +80,7 @@ export const StyledFilterForm = styled.form`
     border-radius: 4px;
   }
 
-  & p {
+  p {
     text-align: right;
     margin-top: 2px;
     color: #888;
